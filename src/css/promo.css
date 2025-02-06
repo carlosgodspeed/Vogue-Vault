@@ -81,6 +81,25 @@ nav a {
     margin-top: 2rem;
 }
 
+.promoimg {
+    position: relative; /* Permite mover a imagem dentro da div */
+    width: 100%; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção */
+    display: flex; /* Facilita o alinhamento */
+    justify-content: flex-start; /* Centraliza horizontalmente */
+    align-items:flex-start; /* Centraliza verticalmente */
+    padding: 1px; /* Ajuste conforme necessário */
+}
+
+.promoimg img {
+    width: 450px; /* Ajuste o tamanho da imagem */
+    height: 240px;
+    position: relative; /* Permite mover a imagem */
+    top: 70px; /* Move para baixo */
+    left: 50px; /* Move para a esquerda */
+}
+
+
 .promo h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
