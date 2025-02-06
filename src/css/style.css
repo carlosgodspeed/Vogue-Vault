@@ -13,7 +13,7 @@ body {
 
 header {
     background: #000000;
-    color: #675b3e;
+    color: #ccb488;
 }
 
 header .container {
@@ -25,46 +25,59 @@ header .container {
     background: transparent;
 }
 
-header .logo h1 {
-    font-size: 2.5rem;
+nav {
+    display: flex;
+    justify-content: center; /* Centraliza o menu */
+    width: 100%;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 5rem;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    padding: 40px;
+    margin: 0 auto;
 }
 
 nav a {
-    color: #675b3e;
+    color: #ccb488;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .banner {
-    background: url('./../img/vogue\ vault.png') no-repeat center/cover;
-    height: 50vh; /* Aumenta a altura do banner (120% da altura da tela) */
+    background: url('./../img/Cópia\ de\ vogue\ vault.png') no-repeat center;
+    background-size: contain; /* Faz a imagem ocupar o espaço sem cortar */
+    width: 100%; /* Faz o banner ocupar toda a largura */
+    height: 80vh; /* Ajuste conforme necessário */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #fff;
     text-align: center;
-    padding: 2rem 1rem; /* Adiciona mais espaçamento interno */
-    margin-top: 2rem; /* Desce o banner */
+    padding: 1rem;
+    margin: 4rem 2rem; /* Controle de espaçamento */  
+    /* Controle de margens para espaçamento externo */
+    margin-top: 1rem;  /* Distância do topo */
+    margin-bottom: 4rem; /* Distância da parte inferior */
+    margin-left: 2rem;  /* Distância do lado esquerdo */
+    margin-right: 2rem; /* Distância do lado direito */
 }
 
 .promo {
     background: url(./../img/vogue\ vault\ promoção.png);
-    height: 50vh; /* Aumenta a altura do banner (120% da altura da tela) */
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #fff;
     text-align: center;
-    padding: 2rem 1rem; /* Adiciona mais espaçamento interno */
-    margin-top: 2rem; /* Desce o banner */
+    padding: 2rem 1rem;
+    margin-top: 2rem;
 }
 
 .promo h2 {
@@ -130,8 +143,8 @@ footer {
 .produto button, .promo-item button {
     margin-top: 1rem;
     padding: 0.5rem 1rem;
-    background: #827143; /* Cor do botão */
-    color: #fff;
+    background: #ccb488; /* Cor do botão */
+    color: #000000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -139,7 +152,7 @@ footer {
 }
 
 .produto button:hover, .promo-item button:hover {
-    background: #85fe87; /* Cor do botão ao passar o mouse */
+    background: #9be59c; /* Cor do botão ao passar o mouse */
 }
 
 .produto h3, p {
