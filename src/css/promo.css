@@ -50,8 +50,8 @@ nav a {
 .banner {
     background: url('./../img/vogue\ vault\ promoção.png') no-repeat center;
     background-size: contain; /* Faz a imagem ocupar o espaço sem cortar */
-    width: 100%; /* Faz o banner ocupar toda a largura */
-    height: 80vh; /* Ajuste conforme necessário */
+    width: 140%; /* Faz o banner ocupar toda a largura */
+    height: 180vh; /* Ajuste conforme necessário */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,11 +92,12 @@ nav a {
 }
 
 .promoimg img {
-    width: 450px; /* Ajuste o tamanho da imagem */
-    height: 240px;
+    width: 690px; /* Ajuste o tamanho da imagem */
+    height: 450px;
     position: relative; /* Permite mover a imagem */
     top: 70px; /* Move para baixo */
     left: 50px; /* Move para a esquerda */
+    border-radius: 15px; /* Bordas arredondadas */
 }
 
 

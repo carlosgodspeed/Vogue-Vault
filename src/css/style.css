@@ -59,12 +59,12 @@ nav a {
     color: #fff;
     text-align: center;
     padding: 1rem;
-    margin: 4rem 2rem; /* Controle de espaçamento */  
+    margin: 2rem 4rem; /* Controle de espaçamento */  
     /* Controle de margens para espaçamento externo */
     margin-top: 1rem;  /* Distância do topo */
     margin-bottom: 4rem; /* Distância da parte inferior */
-    margin-left: 2rem;  /* Distância do lado esquerdo */
-    margin-right: 2rem; /* Distância do lado direito */
+    margin-left: 2.1rem;  /* Distância do lado esquerdo */
+    margin-right: 2.1rem; /* Distância do lado direito */
 }
 
 .promo {
